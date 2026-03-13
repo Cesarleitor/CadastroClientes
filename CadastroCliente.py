@@ -39,12 +39,12 @@ while True:
     print("2. Listar todos os clientes")
     print("3. Sair")
 
-    opcao = input('Escolha uma opção:')
+    opcao = input('Escolha uma opção: ')
 
     if opcao == "1":
-        nome = input('Digite o nome do cliente')
-        email = input('Digite o email do cliente')
-        telefone = input('Digite o telefone do cliente')
+        nome = input('Digite o nome do cliente: ')
+        email = input('Digite o email do cliente: ')
+        telefone = input('Digite o telefone do cliente: ')
 
         cliente = Cliente(nome, email, telefone)
         cadastro.adicionar_cliente(cliente)
